@@ -1,4 +1,3 @@
-# DSA210-Project
 # Does High Inflation Reduce Happiness?
 
 ## Motivation
