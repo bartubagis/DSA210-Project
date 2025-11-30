@@ -17,10 +17,15 @@ Both datasets will be merged using country name and year fields.
 
 ## Research Question
 Does high inflation rate in countries correlate with lower happiness levels among their populations?
+Is there a statistically significant relationship between inflation rates and happiness scores within Norway?
 
 ## Hypotheses
-- **H0 (Null Hypothesis):** Inflation rate has no significant impact on happiness levels
-- **H1 (Alternative Hypothesis):** High inflation rates are associated with lower happiness scores
+- **H0 (Null Hypothesis):** There is no statistically significant relationship between global inflation and global happiness index.
+- **H1 (Alternative Hypothesis):** There is statistically significant relationship between global inflation and global happiness index.
+- 
+- **H0 (Null Hypothesis):** There is no statistically significant relationship between inflation and happiness in Norway.
+- **H1 (Alternative Hypothesis):** There is statistically significant relationship between inflation and happiness in Norway.
+  
 
 ## Methodology
 
@@ -32,7 +37,6 @@ Does high inflation rate in countries correlate with lower happiness levels amon
 
 **Data Integration**
 - Merge datasets by country and year
-- Create derived features: inflation categories (low/medium/high), regional groupings, time periods
 - Calculate year-over-year changes in both inflation and happiness
 
 **Exploratory Data Analysis (EDA)**
@@ -43,7 +47,6 @@ Does high inflation rate in countries correlate with lower happiness levels amon
 
 **Hypothesis Testing**
 - **Correlation Analysis:** Evaluate relationship between inflation and happiness metrics
-- **T-test:** Compare mean happiness scores between high inflation vs. low inflation countries
 - **Regression Analysis:** Control for other factors (GDP, social support, etc.) to isolate inflation's effect
 
 **Visualization**
